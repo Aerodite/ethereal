@@ -1,12 +1,45 @@
 ﻿<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Aerodite</title>
+    <title>Rancho Rambotics</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/854673238327951363/1062285283955056710/Aerodite.ico">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/10c4af6823.js" crossorigin="anonymous"></script>
 </head>
 <body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="https://media.discordapp.net/attachments/854673238327951363/1062285837087277107/aerodite.tech.png?width=1352&height=676"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-square-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="https://github.com/Aerodite/Aerodite-Blog">github page</a></li>
+            </ul>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+    </nav>
+</section>
+<div class="text-box">
+    <h1>Welcome to Anthony's blog</h1>
+    <p>Scroll below to see the cool stuff I've been working on! <br>(Every page with a coding project will include a GitHub link)</br></p>
+</div>
+<!------Javascript for Toggle Menu------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
 
+</script>
+<p>Made with <i class="fa fa-heart-o"></i> by Anthony Garcia Roman</p>
 </body>
 </html>
