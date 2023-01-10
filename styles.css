@@ -83,18 +83,19 @@ nav .fa{
     display: block;
   }
   }
-@media(max-width: 500px){
-  .text-box p{
+@media(max-width: 500px) {
+  .text-box p {
     font-size: 15px;
   }
-  nav img{
+
+  nav img {
     position: absolute;
     width: 65%;
-    top:10px;
-    margin-left:15%;
+    top: 10px;
+    margin-left: 15%;
 
   }
-  
+
 
   .nav-links {
     position: fixed;
@@ -107,7 +108,8 @@ nav .fa{
     z-index: 2;
     transition: 0.60s;
   }
-  nav .fa{
+
+  nav .fa {
     display: block;
     color: #fff;
     margin: 10px;
@@ -115,10 +117,12 @@ nav .fa{
     cursor: pointer;
 
   }
-  .nav-links ul{
+
+  .nav-links ul {
     padding: 30px;
 
   }
-p{
-  text-align: center}
+}
+p {
+  text-align: center;
 }
