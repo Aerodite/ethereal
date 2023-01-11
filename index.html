@@ -1,4 +1,5 @@
-﻿<html>
+﻿<!--I know my HTML and CSS is messy, and I don't care :)--->
+<html>
 <head>
     <meta name="viewport" content="with=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -29,7 +30,7 @@
     <h1>Welcome to Anthony's blog</h1>
     <p>Scroll below to see the cool stuff I've been working on! <br>(Every page with a coding project will include a GitHub link)</br></p>
 </div>
-<!------Javascript for Toggle Menu------>
+<!------Javascript for navigation menu------>
 <script>
     var navLinks = document.getElementById("navLinks");
     function showMenu(){
@@ -43,10 +44,13 @@
 <div class="Blog" style="padding-right: 5px;">
     <img src="https://4kwallpapers.com/images/wallpapers/ios-13-stock-ipados-red-black-background-amoled-ipad-hd-3208x3208-792.jpg"
     alt="" style="float: right;">
-<h2><p style="font-size: 25px; color:#1F9AFE;">
-    <button><a href="/rambots.html">Creating a Website for Robotics</a></button>
-</p></h2>
+<h2><p style="font-size: 22px; color:#ffffff;">
+    <button type="button" class="btn" id="add invoice" onclick="window.location.href='https://aerodite.tech/rambots';">
+        <a href="/rambots.html">Creating a Website for Robotics</a>
+    </button>
+    </p>
+</h2>
 <p>Made with <i class="fa fa-heart-o"></i> by Anthony Garcia Roman</p>
-    </div>
+</div>
 </body>
 </html>
