@@ -17,6 +17,15 @@ html{
   background-size: cover;
   position: relative;
 }
+h2 {
+  width: 100%;
+  color: #fff;
+  position: absolute;
+  top: 125%;
+  left: 50%;
+  transform: translate(-50%,-0%);
+  text-align: center;
+}
 nav{
   display: flex;
   padding: 0 2%;
