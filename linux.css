@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    padding: 20px;
+    background-image:
+            linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(https://4kwallpapers.com/images/wallpapers/ios-13-stock-ipados-red-black-background-amoled-hd-3208x3208-799.jpg);
+    color: #ffffff
+}
+
+.header {
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    min-height: 75vh;
+    width: 100%;
+
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.main{
+    padding: 30px;
+    font-size: 20px;
+    text-align: left;
+    min-height: 100vh;
+    width: 100%;
+
+    background-position: center;
+    background-size: cover;
+    position: relative;}
+.image{
+    padding: 10px;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 60%;
+    left: 50%;
+    transform: translate(-35%,75%);
+    text-align: center;
+}
+.header5{
+    font-size: 10px;
+    position: absolute;
+    top:45%;
+    left: 50%;
+    transform: translate(-22%,70%);
+    text-align: center;
+}
+.card{
+    font-size: 10px;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transform: translate(-45%,-45%);
+    text-align: center;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+
+}
