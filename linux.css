@@ -1,7 +1,26 @@
 * {
     box-sizing: border-box;
 }
-
+a{
+    color: #ffc66f;
+    text-decoration: none;
+}
+.a1{
+    color: #0f2372;
+    text-decoration: none;
+}
+.distro{
+    color: #ff0000;
+    text-decoration: none;
+}
+.a2{
+    color: #71f5b3;
+    text-decoration: none;
+}
+.a3{
+    color: #ffc66f;
+    text-decoration: none;
+}
 body {
     font-family: Poppins, sans-serif;
     padding: 20px;
