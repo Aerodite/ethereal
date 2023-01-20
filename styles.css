@@ -202,7 +202,6 @@ p {
   height: 750px;
   width: 1000px;
   cursor: pointer;
-  padding: 8px 15px;
   background: linear-gradient(rgba(18, 120, 192, 0.34), rgba(4, 100, 103, 0.59)),url("https://res.cloudinary.com/practicaldev/image/fetch/s--Qae7NESr--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/csm9ujzpxso5ov1zd9am.png");
   border: 1px solid #0022ff;
   outline: none;
