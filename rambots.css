@@ -9,6 +9,10 @@ body {
             linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(https://media.discordapp.net/attachments/854673238327951363/1062852430989107364/ios-13-stock-multicolor-black-background-ipad-hd-3200x3200-796.png);
     color: #ffffff
 }
+a{
+    color: #45ce34;
+    text-decoration: none;
+}
 
 .header {
     padding: 30px;
@@ -32,12 +36,12 @@ body {
     background-size: cover;
     position: relative;}
 .image{
-    padding: 30px;
+    padding: 20px;
     font-size: 20px;
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 60%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%,0%);
     text-align: center;
@@ -45,8 +49,8 @@ body {
 .card{
     position: absolute;
     top: 40%;
-    left: 45%;
-    transform: translate(-45%,-45%);
+    left: 50%;
+    transform: translate(-50%,-50%);
     text-align: center;
 }
 

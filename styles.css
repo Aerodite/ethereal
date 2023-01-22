@@ -13,6 +13,10 @@ a:hover { text-decoration: none; }
 
 
 a:active { text-decoration: none; }
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
 html{
   scroll-behavior: smooth;
 }
@@ -52,7 +56,7 @@ nav img{
 .nav-links ul li{
   list-style: none;
   display: inline-block;
-  padding: 8px 15px;
+  padding: 0px 6px;
   position: relative;
 }
 .nav-links ul li a{
@@ -63,7 +67,7 @@ nav img{
 }
 .nav-links ul li::after{
   content: '';
-  width: 0%;
+  width: 0;
   height: 4px;
   background: #ff9100;
   display: block;
@@ -116,7 +120,7 @@ nav .fa{
   }
   .nav-links {
     position: fixed;
-    background: #ffffff;
+    background: #030646;
     height: 100vh;
     width: 200px;
     top: 0;
@@ -169,7 +173,7 @@ p {
   background: linear-gradient(rgba(192, 18, 37, 0.34), rgba(103, 52, 4, 0.59)),url("https://www.firstinspires.org/sites/all/themes/first/assets/images/2020/frc/event-experience.jpg");
   border: 1px solid #ff0000;
   outline: none;
-  font-size: 44px;
+  font-size: 50px;
   font-weight: 100;
   box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5), 0 0 0 0 rgba(255, 255, 255, 0.5);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -180,7 +184,7 @@ p {
   height: 750px;
   position: absolute;
   top: 0;
-  left: 0px;
+  left: 0;
   background-color: #af0202;
   /* Just in case I figure out how to fix the gradient ease-in issue, this will stay commented. */
  /* background-image: linear-gradient(225deg, #fff200 0%, #f88526 50%, #c625d0 100%); */
@@ -197,7 +201,8 @@ p {
 
 .btn2{
   overflow: hidden;
-  position: absolute;
+  position: relative;
+  top: 20px;
   color: white;
   height: 750px;
   width: 1000px;
@@ -216,7 +221,7 @@ p {
   height: 750px;
   position: absolute;
   top: 0;
-  left: 0px;
+  left: 0;
   background-color: #af0202;
   z-index: -1;
   transition: transform 0.5s ease;
