@@ -1,0 +1,64 @@
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>aerodite.tech</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/854673238327951363/1062285283955056710/Aerodite.ico">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <!--<a href="index.html"><img src=""></a>-->
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+</section>
+<div class="text-box">
+    <h1>Welcome to the <br>Ethereal Server!<br></h1>
+    <p>if you're looking for the server link:<br></p>
+    <!-- The text field -->
+    <text type="text" value="origins.aerodite.tech" id="origins">
+
+    <!-- The button used to copy the text -->
+    <button onclick="myFunction()">its the url</button>
+    <script>
+        function myFunction() {
+    // Get the text field
+            const copyText = document.getElementById("origins");
+
+
+            // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+
+    // Alert the copied text
+    alert("Copied to Clipboard!");
+    }
+    </script>
+
+</div>
+<!------Javascript for navigation menu------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

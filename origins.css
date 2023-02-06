@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    padding: 20px;
+    background-image:
+            linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(https://media.discordapp.net/attachments/854673238327951363/1062852430989107364/ios-13-stock-multicolor-black-background-ipad-hd-3200x3200-796.png);
+    color: #ffffff
+}
+a{
+    color: #45ce34;
+    text-decoration: none;
+}
+.main{
+    padding: 30px;
+    font-size: 20px;
+    text-align: left;
+    min-height: 100vh;
+    width: 100%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;}
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
