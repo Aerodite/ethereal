@@ -110,7 +110,7 @@ nav .fa{
   }
   .btn {
     border-radius:7%;
-  max-width: 100%;}
+    max-width: 100%;}
   .btn2 {
     border-radius:7%;
     max-width: 100%;
@@ -142,7 +142,7 @@ nav .fa{
     margin-left: 15%;
 
   }
-  
+
   nav .fa {
     display: block;
     color: #fff;
@@ -187,7 +187,7 @@ p {
   left: 0;
   background-color: #af0202;
   /* Just in case I figure out how to fix the gradient ease-in issue, this will stay commented. */
- /* background-image: linear-gradient(225deg, #fff200 0%, #f88526 50%, #c625d0 100%); */
+  /* background-image: linear-gradient(225deg, #fff200 0%, #f88526 50%, #c625d0 100%); */
   z-index: -1;
   transition: transform 0.5s ease;
 }
@@ -228,4 +228,36 @@ p {
 }
 .btn2:hover {
   box-shadow: 10px -10px 25px 0 rgba(64, 150, 248, 0.5), -10px 10px 25px 0 rgba(0, 234, 255, 0.5);
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }

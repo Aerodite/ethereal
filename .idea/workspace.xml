@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="225d7071-f294-442a-a084-ee9eab6e926b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rambots.css" beforeDir="false" afterPath="$PROJECT_DIR$/rambots.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rambots.html" beforeDir="false" afterPath="$PROJECT_DIR$/rambots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/origins.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/origins.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rambots.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rambots.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,12 +35,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/Anthony/Documents/GitHub/Aerodite-Blog",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -53,6 +57,7 @@
       <workItem from="1674142965640" duration="8756000" />
       <workItem from="1674235807500" duration="324000" />
       <workItem from="1674412075401" duration="3539000" />
+      <workItem from="1675723064724" duration="1350000" />
     </task>
     <servers />
   </component>

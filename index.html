@@ -1,5 +1,4 @@
-﻿<!--I know my HTML and CSS is messy, and I don't care :)--->
-<html>
+﻿<html>
 <head>
     <meta name="viewport" content="with=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,54 +10,46 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <section class="header">
     <nav>
-        <a href="index.html"><img src="https://media.discordapp.net/attachments/854673238327951363/1062285837087277107/aerodite.tech.png?width=1352&height=676"></a>
+        <a href="index.html"><img src="https://media.discordapp.net/attachments/854673238327951363/1072308501730312272/jlUntitled-1.png"></a>
         <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
-                <li><a href="https://github.com/Aerodite/Aerodite-Blog">github page</a></li>
+                <li><a href="https://github.com/Aerodite/ethereal-origins">github page</a></li>
             </ul>
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
 </section>
+    <nav>
+        <i className="fa fa-bars" onClick="showMenu()"></i>
+    </nav>
+</section>
 <div class="text-box">
-    <h1>Welcome to Anthony's blog</h1>
-    <p>Scroll below to see the cool stuff I've been working on! <br>(Every page with a coding project will include a GitHub link)</br></p>
+    <h1>Welcome to the Ethereal Server!<br></h1>
+    <p>if you're looking for the server link:<br></p>
+
+
 </div>
+</section>
 <!------Javascript for navigation menu------>
 <script>
     var navLinks = document.getElementById("navLinks");
-    function showMenu(){
+
+    function showMenu() {
         navLinks.style.right = "0";
     }
-    function hideMenu(){
+
+    function hideMenu() {
         navLinks.style.right = "-200px";
     }
 
 </script>
-<div class="Blog" style="padding-right: 5px;">
-    <img src="https://4kwallpapers.com/images/wallpapers/ios-13-stock-ipados-red-black-background-amoled-ipad-hd-3208x3208-792.jpg"
-    alt="" style="float: right;">
-<h2><p style="font-size: 22px; color:#ffffff;">
-    <button type="button" class="btn" id="add invoice" onclick="window.location.href='https://aerodite.tech/rambots';">
-        <a href="/rambots.html">Creating a Website for Robotics</a>
-    </button>
-    </p>
-
-  <!--👍-->
-    <p style="font-size: 22px; color:#ffffff;">
-        <button type="button" class="btn2" id="add invoice" onclick="window.location.href='https://aerodite.tech/linux';">
-            <a href="/linux.html">My experience using Linux and Windows</a>
-        </button>
-    </p>
-</h2>
-</div>
-<p>Made with <i class="fa fa-heart-o"></i> by Anthony Garcia Roman</p>
 
 </body>
+
 </html>
