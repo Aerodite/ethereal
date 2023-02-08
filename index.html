@@ -33,8 +33,8 @@
 <div class="text-box">
     <h1>Welcome to the Ethereal Server!</h1>
     <p>if you're looking for the server link:</p>
-    <button onclick="click()" class="btnx">
-    <input type="button"
+    <button onclick="click()" class="triggerClick">
+    <input type="button"; class="btnn";
            value="origins.aerodite.tech"
            id="El">
 
@@ -43,12 +43,15 @@
 </div>
 </section>
 <script>
-    function click() {
-        const El = document.getElementById("El");
-        copyEl.select();
-        document.execCommand("copy");
-        document.getElementById("El");
-        copyEl.value;
+    function triggerClick() {
+        const storage = document.createElement('textarea');
+        storage.value = element.innerHTML;
+        const element = document.querySelector('#click');
+        element.appendChild(storage);
+        storage.select();
+        storage.setSelectionRange(0, 99999);
+        document.execCommand('copy');
+        element.removeChild(storage);
     }
 </script>
 <!------Javascript for navigation menu------>
