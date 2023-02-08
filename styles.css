@@ -30,20 +30,9 @@ html{
   background-size: cover;
   position: relative;
 }
-.btnn{
-
-  background: transparent;
-  border: none !important;
-  font-size: 40px;
-  color: #ffffff;
-  position: absolute;
-  top: 95%;
-  left: 50%;
-  transform: translate(-50%, -30%);
-}
 .btnx{
   background: transparent;
-  border: none !important;
+  border: none;
   font-size: 40px;
   color: #ffffff;
   position: absolute;
@@ -149,9 +138,6 @@ nav .fa{
     text-align: left;
     z-index: 2;
     transition: 0.60s;
-  }
-  .btnn{
-    font-size: 18px;
   }
   .btnx{
     font-size: 18px;
