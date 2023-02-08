@@ -29,13 +29,28 @@
         <i className="fa fa-bars" onClick="showMenu()"></i>
     </nav>
 </section>
+<section>
 <div class="text-box">
-    <h1>Welcome to the Ethereal Server!<br></h1>
-    <p>if you're looking for the server link:<br></p>
+    <h1>Welcome to the Ethereal Server!</h1>
+    <p>if you're looking for the server link:</p>
+    <button onclick="click()" class="btnx">
+    <input type="button"; class="btnn"
+           value="origins.aerodite.tech"
+           id="el">
 
+    </button>
 
 </div>
 </section>
+<script>
+    function click() {
+        var el = document.getElementById("el");
+        copyel.select();
+        document.execCommand("copy");
+        document.getElementById("el");
+        copyel.value;
+    }
+</script>
 <!------Javascript for navigation menu------>
 <script>
     var navLinks = document.getElementById("navLinks");

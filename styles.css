@@ -24,11 +24,33 @@ html{
   min-height: 100vh;
   width: 100%;
   background-image:
-          linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(https://4kwallpapers.com/images/wallpapers/ios-13-stock-ipados-blue-black-background-amoled-ipad-hd-3840x2160-795.jpg);
+          linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(https://images-ext-1.discordapp.net/external/1hZSD7-KsYy6fciZU3StBv_u7Vsjq9U32KwTBsaJwkk/https/imagedelivery.net/aG82t-qDLn415HP9HHoOeg/ca030b2c-95b4-4c7d-2492-60960e19f000/original?width=1193&height=671);
 
   background-position: center;
   background-size: cover;
   position: relative;
+}
+.btnn{
+  position:absolute;
+  background: transparent;
+  border: none !important;
+  font-size: 40px;
+  color: #ffffff;
+  display: flex;
+  padding: 0 25%;
+  justify-content: space-between;
+  align-items: center;
+}
+.btnx{
+  position:absolute;
+  background: transparent;
+  border: none !important;
+  font-size: 40px;
+  color: #ffffff;
+  display: flex;
+  padding: 0 25%;
+  justify-content: space-between;
+  align-items: center;
 }
 h2 {
   padding: 10px;
