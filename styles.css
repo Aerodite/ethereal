@@ -1,4 +1,12 @@
-﻿*{
+﻿body
+{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+*{
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
@@ -24,7 +32,16 @@ html{
   min-height: 100vh;
   width: 100%;
   background-image:
-          linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(https://images-ext-1.discordapp.net/external/1hZSD7-KsYy6fciZU3StBv_u7Vsjq9U32KwTBsaJwkk/https/imagedelivery.net/aG82t-qDLn415HP9HHoOeg/ca030b2c-95b4-4c7d-2492-60960e19f000/original?width=1193&height=671);
+          linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(https://media.discordapp.net/attachments/853514339914874910/1073892426462285874/klUntitled-1.png);
+
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.header2 {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://media.discordapp.net/attachments/853514339914874910/1073891510505967666/lUntitled-1.png);
 
   background-position: center;
   background-size: cover;
@@ -128,7 +145,7 @@ nav .fa{
 .btn2{
   border-radius:2%;
 }
-@media(max-width: 1000px){
+@media(max-width: 800px){
   .text-box h1{
     font-size: 24px
   }
@@ -160,7 +177,7 @@ nav .fa{
     font-size: 18px;
   }
 }
-@media(max-width: 1000px) {
+@media(max-width: 800px) {
   .text-box p {
     font-size: 15px;
   }
@@ -193,101 +210,3 @@ p {
   transition: 1s ease-in-out;
 }
 
-.btn{
-  overflow: hidden;
-  position: relative;
-  color: white;
-  height: 750px;
-  width: 1000px;
-  cursor: pointer;
-  background: linear-gradient(rgba(192, 18, 37, 0.34), rgba(103, 52, 4, 0.59)),url("https://www.firstinspires.org/sites/all/themes/first/assets/images/2020/frc/event-experience.jpg");
-  border: 1px solid #ff0000;
-  outline: none;
-  font-size: 50px;
-  font-weight: 100;
-  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5), 0 0 0 0 rgba(255, 255, 255, 0.5);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.btn::after{
-  content: "";
-  width: 1000px;
-  height: 750px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #af0202;
-  /* Just in case I figure out how to fix the gradient ease-in issue, this will stay commented. */
-  /* background-image: linear-gradient(225deg, #fff200 0%, #f88526 50%, #c625d0 100%); */
-  z-index: -1;
-  transition: transform 0.5s ease;
-}
-.btn:hover {
-  box-shadow: 10px -10px 25px 0 rgba(248, 184, 64, 0.5), -10px 10px 25px 0 rgba(255, 0, 0, 0.5);
-}
-
-.btn2:hover {
-  transition: 1s ease-in-out;
-}
-
-.btn2{
-  overflow: hidden;
-  position: relative;
-  top: 20px;
-  color: white;
-  height: 750px;
-  width: 1000px;
-  cursor: pointer;
-  background: linear-gradient(rgba(18, 120, 192, 0.34), rgba(4, 100, 103, 0.59)),url("https://res.cloudinary.com/practicaldev/image/fetch/s--Qae7NESr--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/csm9ujzpxso5ov1zd9am.png");
-  border: 1px solid #0022ff;
-  outline: none;
-  font-size: 44px;
-  font-weight: 100;
-  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5), 0 0 0 0 rgba(255, 255, 255, 0.5);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.btn2::after{
-  content: "";
-  width: 1000px;
-  height: 750px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #af0202;
-  z-index: -1;
-  transition: transform 0.5s ease;
-}
-.btn2:hover {
-  box-shadow: 10px -10px 25px 0 rgba(64, 150, 248, 0.5), -10px 10px 25px 0 rgba(0, 234, 255, 0.5);
-}
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 140px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px;
-  position: absolute;
-  z-index: 1;
-  bottom: 150%;
-  left: 50%;
-  margin-left: -75px;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
