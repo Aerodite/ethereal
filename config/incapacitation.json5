@@ -1,0 +1,22 @@
+{
+	"config": {
+		// A list of comma separated item IDs for foods player can eat to revive themselves. IE: minecraft:enchanted_golden_apple,minecraft:apple
+		"REVIVEFOODS": "minecraft:enchanted_golden_apple",
+		// A list of comma separated item IDs for foods player can eat to reset their down counters. IE: minecraft:golden_apple,minecraft:golden_carrot
+		"HEALINGFOODS": "minecraft:golden_apple",
+		// How many ticks a player can be downed without dying
+		"DOWNTICKS": 2000,
+		// How long it takes to revive a downed player manually
+		"REVIVETICKS": 150,
+		// How many times a player can go down without a healing or revive item, without instantly dying the next time they are supposed to go down.
+		"DOWNCOUNT": 3,
+		// Do players glow while downed to be easier to find?
+		"GLOWING": true,
+		// Are downed players invincible?
+		"INVINCIBLEDOWN": false,
+		// Do some damage types like Lava down players, or instantly kill?
+		"SOMEINSTANTKILLS": true,
+		// Are incapacitation messsages globally sent
+		"GLOBALINCAPMESSAGES": true
+	}
+}
