@@ -1,8 +1,9 @@
 search for these recommended keybind catagories in your key binds
 to edit them and use them to how you desire
 
-Show me your skin!
-Voice chat
-Xaero's World Map
+EmoteCraft
+Inventorio
+journeymap
 Iris
-Essential
+Sophisticated Backpacks
+Voice Chat
