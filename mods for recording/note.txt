@@ -1,5 +1,0 @@
-Add these jar files with your mods to get them to work
-
-*footnote
-If you don't want to start recording when you join a world you can
-turn it off by going to replay viewer > config button(top right of screen)
